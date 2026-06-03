@@ -855,6 +855,22 @@
     line-height: 1.25;
   }
 
+  .settings-module-head {
+    margin-bottom: 8px;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .settings-module-head h3 {
+    margin: 0;
+  }
+
+  .totp-status-pill {
+    min-height: 30px;
+    padding: 0 10px;
+    font-size: 13px;
+  }
+
   .settings-module .field,
   .auth-card .field {
     margin-bottom: 8px;
@@ -882,6 +898,8 @@
   }
 
   .settings-module select.input {
+    padding-top: 0;
+    padding-bottom: 0;
     padding-right: 30px;
     background-position:
       calc(100% - 15px) calc(50% - 3px),
